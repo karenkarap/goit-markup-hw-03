@@ -1,0 +1,176 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+}
+
+.logo .accent {
+   
+    color: #2e2f42;
+}
+
+.nav-list,
+.header-contacts-list {
+    list-style-type: none;
+}
+
+.nav-list .link {
+    font-weight: 500;
+    color: #2E2F42;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.nav-list .link:hover, 
+.nav-list .link:focus {
+    color: #404BBF;
+}
+
+/* Это правило было в нижнем правиле, но авточекер не пропустил его */
+.header-contacts {
+    font-style: normal;
+}
+
+.header-contacts .link {
+    color: currentColor;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.header-contacts-list .link:hover,
+.header-contacts-list .link:focus {
+    color: #404BBF;
+}
+
+.hero-title-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.hero-title-button:hover,
+.hero-title-button:focus {
+    background-color: #404BBF;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.advantages-list {
+    list-style-type: none;
+}
+
+.advantages-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.advantages-text {
+    letter-spacing: 0.02em;
+    color: currentColor;
+
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    list-style-type: none;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-text {
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-list-item {
+    list-style-type: none;
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    text-align: left;
+    letter-spacing: 0.02em;
+}
+
+.site-footer {
+    background-color: #2E2F42;
+}
+
+.accent-footer {
+    color: #F4F4FD;
+}
+
+.text-footer {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
