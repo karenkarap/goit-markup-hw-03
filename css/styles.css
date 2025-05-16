@@ -18,8 +18,7 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 body {
@@ -38,13 +37,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-header {
     border-bottom: 1px solid #E7E9FC;
 }
 
 .container .header-nav {
     display: flex;
-    gap: 76px;
     align-items: center;
+}
+
+.header-nav .logo {
+    margin-right: 76px;
 }
 
 .header-nav .nav-list {
@@ -59,9 +64,15 @@ body {
     align-items: center;
 }
 
+/*
 .header-nav {
     padding-top: 24px;
     padding-bottom: 24px;
+} 
+*/
+
+.nav-list .link {
+    padding: 24px 0;
 }
 
 .header-contacts {
@@ -77,23 +88,35 @@ body {
 
 .hero {
     text-align: center;
+    padding: 188px 0;
+    
 }
-
-.hero-title-button {
-    padding: 16px 32px;
-    border-radius: 4px;
-    border: none;
-    margin-top: 0;
-    margin-bottom: 68px;
-}
-
 
 .hero-title {
     max-width: 496px;
-    margin: 68px auto 48px auto;
+    margin: 68px auto 48px auto; 
 }
 
-.advantages-title {
+
+
+.hero-title-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto 68px auto;
+    /* 
+    padding: 16px 32px;
+    margin-top: 0;
+    margin-bottom: 68px;
+    */
+}
+
+
+
+
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -108,10 +131,15 @@ body {
 .advantages-list {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle {
     margin-bottom: 8px;
+}
+
+.team-title {
+    margin: 0 auto 72px auto;
 }
 
 .team-list {
@@ -119,28 +147,27 @@ body {
     gap: 24px;
 }
 
-.team-subtitle {
-    margin-top: 32px;
-    margin-bottom: 0;
-}
-
-.team-text {
-    margin-top: 8px;
-    margin-bottom: 32px;
-}
-
-.team-title {
-    margin: 0 auto 72px auto;
-}
-
 .team-list-item {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     width: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+
+.team-subtitle {
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+
+.team-text {
+    text-align: center;
+}
     
 
-
+.team-border {
+    padding: 32px 0;
 }
 
 .portfolio-title {
@@ -182,14 +209,16 @@ body {
 
 
 .site-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+    padding: 100px 0;
+}
+
+.site-footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-footer {
     max-width: 264px;
-    margin: 16px auto 0 0;
 }
 
 /* finish */
